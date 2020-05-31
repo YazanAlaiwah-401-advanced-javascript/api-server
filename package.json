@@ -1,0 +1,26 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YazanAlaiwah-401-advanced-javascript/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YazanAlaiwah-401-advanced-javascript/api-server/issues"
+  },
+  "homepage": "https://github.com/YazanAlaiwah-401-advanced-javascript/api-server#readme",
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

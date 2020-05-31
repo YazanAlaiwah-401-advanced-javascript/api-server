@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "name": "sherts",
+      "display_name": "cut",
+      "description": "sdkjfhkdsfkdskjflks",
+      "id": 2
+    },
+    {
+      "name": "cars",
+      "display_name": "vans",
+      "description": "lorem15",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "category": "hats",
+      "name": "cap3",
+      "descriptition": "12121212211221",
+      "display_name": "zara",
+      "id": 2
+    },
+    {
+      "category": "sherts",
+      "name": "long",
+      "description": "blablabla",
+      "display_name": "boss",
+      "id": 3
+    },
+    {
+      "name": "",
+      "category": "",
+      "description": "",
+      "price": 1.99,
+      "id": 4
+    },
+    {
+      "name": "dsf",
+      "category": "sdf",
+      "description": "sdf",
+      "price": 1.99,
+      "id": 5
+    },
+    {
+      "name": "dsf",
+      "category": "sdf",
+      "description": "sdf",
+      "price": 1.99,
+      "id": 6
+    },
+    {
+      "name": "dsf",
+      "category": "sdf",
+      "description": "sdf",
+      "price": 1.99,
+      "id": 7
+    }
+  ]
+}
