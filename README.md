@@ -1,17 +1,17 @@
 # api-server
 
-## Class-06
+## Class-07
 
 ### API-SERVER
 
 #### Links 
 
-[PR](https://github.com/YazanAlaiwah-401-advanced-javascript/api-server/pull/1)
+[PR](https://github.com/YazanAlaiwah-401-advanced-javascript/api-server/pull/2)
 <br />
 [Swagger ](https://app.swaggerhub.com/apis/YazanAlaiwah/json-server/0.1)
 
 <!-- #### Modules
-*`input.js`*
+*`index.js`*
 *`notes.js`* -->
 
 #### Setup
@@ -32,10 +32,10 @@ you need to install json-server in global and use it with postman or httpi or sw
 *PATCH* -> `/products<id>` will updata part of the id you pass in products tabel
 
 
-<!-- #### Tests -->
+#### Tests
 
-<!-- Lint test: npm run lint -->
-<!-- unit test: npm test -->
+Lint test: npm run lint 
+unit test: npm test
 
 #### UML
 
