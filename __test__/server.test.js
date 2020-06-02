@@ -1,8 +1,7 @@
 'use strict';
-// const encodings =require('../node_modules/iconv-lite/encodings');
 const { server } = require('../lib/server.js');
-const supertest = require('supertest');
-const mockRequest = supertest(server);
+const supergoose = require('@code-fellows/supergoose');
+const mockRequest = supergoose(server);
 describe('SERVER MODULE', () => {
   let obj = {
     name: 'Yazan',
@@ -51,7 +50,7 @@ describe('SERVER MODULE', () => {
   let id; let id2;
   it('its should return the data posted in the  products', () => {
     return mockRequest.post('/products').send(obj).set('Accept', 'application/json').then(resulte => {
-      id = resulte.body.id;
+      id = resulte.body._id;
       return expect(resulte.body).toMatchObject(obj);
     });
   });
@@ -76,7 +75,7 @@ describe('SERVER MODULE', () => {
  
   it('its should return the data posted in the category ', () => {
     return mockRequest.post('/categories').send(objC).set('Accept', 'application/json').then(resulte => {
-      id2 = resulte.body.id;
+      id2 = resulte.body._id;
       return expect(resulte.body).toMatchObject(objC);
     });
   });
