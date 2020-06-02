@@ -39,4 +39,4 @@ unit test: npm test
 
 #### UML
 
-![class02](./assets/class06.png)
+![class02](./assets/class08.png)
