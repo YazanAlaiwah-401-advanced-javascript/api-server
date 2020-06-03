@@ -1,19 +1,21 @@
 'use strict';
+
 let isValid = (type, obj) => {
   return validator[type](obj);
 };
 
 let validator = {
-  category: (obj) => {
+  categories: (obj) => {
     return !!(obj.name && obj.display_name && obj.description);
   },
-  product: (obj) => {
+  products: (obj) => {
     return !!(obj.name && obj.display_name && obj.description && obj.category);
   },
 };
 
-module.exports = (type) =>  (req,res,next) =>{
-  if(isValid(type,req.body)){
+module.exports = (req,res,next) =>{
+  console.log('valid');
+  if(isValid(req.params.model,req.body)){
     next();
   }else{
     next('invaled properties');
