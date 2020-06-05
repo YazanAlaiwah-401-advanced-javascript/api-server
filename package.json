@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest --coverage --verbose",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'",
+    "doc":"jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@code-fellows/supergoose": "^1.0.2",
     "eslint": "^7.1.0",
     "jest": "^26.0.1",
+    "jsdoc": "^3.6.4",
     "supertest": "^4.0.2"
   },
   "dependencies": {
